@@ -89,6 +89,96 @@ export const resumes: Resume[] = [
       },
     },
   },
+  {
+    id: "4",
+    companyName: "Amazon",
+    jobTitle: "Backend Engineer",
+    imagePath: "/images/resume-4.png",
+    resumePath: "/resumes/resume-4.pdf",
+    feedback: {
+      overallScore: 68,
+      ATS: {
+        score: 80,
+        tips: [],
+      },
+      toneAndStyle: {
+        score: 70,
+        tips: [],
+      },
+      content: {
+        score: 75,
+        tips: [],
+      },
+      structure: {
+        score: 65,
+        tips: [],
+      },
+      skills: {
+        score: 60,
+        tips: [],
+      },
+    },
+  },
+  {
+    id: "5",
+    companyName: "Netflix",
+    jobTitle: "Data Scientist",
+    imagePath: "/images/resume-5.png",
+    resumePath: "/resumes/resume-5.pdf",
+    feedback: {
+      overallScore: 82,
+      ATS: {
+        score: 85,
+        tips: [],
+      },
+      toneAndStyle: {
+        score: 80,
+        tips: [],
+      },
+      content: {
+        score: 78,
+        tips: [],
+      },
+      structure: {
+        score: 84,
+        tips: [],
+      },
+      skills: {
+        score: 83,
+        tips: [],
+      },
+    },
+  },
+  {
+    id: "6",
+    companyName: "Tesla",
+    jobTitle: "AI Research Engineer",
+    imagePath: "/images/resume-6.png",
+    resumePath: "/resumes/resume-6.pdf",
+    feedback: {
+      overallScore: 92,
+      ATS: {
+        score: 95,
+        tips: [],
+      },
+      toneAndStyle: {
+        score: 90,
+        tips: [],
+      },
+      content: {
+        score: 93,
+        tips: [],
+      },
+      structure: {
+        score: 89,
+        tips: [],
+      },
+      skills: {
+        score: 94,
+        tips: [],
+      },
+    },
+  },
 ];
 
 export const AIResponseFormat = `
